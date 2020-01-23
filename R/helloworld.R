@@ -1,3 +1,5 @@
+#' @export
+
 helloworld <- function() {
   appDir <- system.file("helloworld", package = "helloworld")
 
