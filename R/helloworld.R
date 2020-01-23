@@ -1,7 +1,7 @@
 #' @export
 
-helloworld <- function() {
-  appDir <- system.file("helloworld", package = "helloworld")
+HelloWorld <- function() {
+  appDir <- system.file("helloworld", package = "HelloWorld")
 
   shiny::runApp(
     appDir,
